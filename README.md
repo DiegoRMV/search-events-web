@@ -4,27 +4,25 @@ Necesitarás tener instalado ``` node.js ``` y tener acceso a una terminal para 
 >
 1. Necesitamos clonar el proyecto añadiendo la siguiente linea de comando en una terminal
 ```
-git clone https://github.com/DiegoRMV/web-games-store.git
+git clone https://github.com/DiegoRMV/search-events-web.git
 ```
 >
 2. Entramos a la carpeta que acabamos de clonar e instalamos las dependencias necesarias
 ```
 npm install
-#
-yarn
+
 ```
 >
 3. Necesita configurar NEXT_PUBLIC_TICKETMASTER_API_kEY en .env.template, puede aquirir la apikey en: 
 
     https://developer.ticketmaster.com/products-and-docs/apis/getting-started/
 
-    Luego cambie el nombre a .env.local.
+    Luego cambie el nombre a .env.local
 >
 4. Ejecutamos nuestro proyecto en local
 ```
 npm run dev
-#
-yarn dev
+
 ```
 
 💻 En computadora
