@@ -31,4 +31,4 @@ npm run dev
 
 📱 En móvil
 >
-<img width="50%" alt="Captura de Pantalla Movil" src="./public/movil.png"> <img width="50%" alt="Captura de Pantalla Movil" src="./public/movil-1.png">
+<img width="50%" alt="Captura de Pantalla Movil" src="./public/movil.png"><img width="50%" alt="Captura de Pantalla Movil" src="./public/movil-1.png">
