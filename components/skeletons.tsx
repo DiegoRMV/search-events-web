@@ -16,9 +16,18 @@ export function CardSkeleton() {
 export function ContainerCardSkeleton() {
 	return (
 		<div className="flex justify-center w-full">
-			<CardSkeleton />
-			<CardSkeleton />
-			<CardSkeleton />
+			<div className="w-full flex sm:hidden">
+				<CardSkeleton />
+			</div>
+			<div className="w-full hidden sm:flex lg:hidden">
+				<CardSkeleton />
+				<CardSkeleton />
+			</div>
+			<div className="w-full hidden lg:flex">
+				<CardSkeleton />
+				<CardSkeleton />
+				<CardSkeleton />
+			</div>
 		</div>
 	);
 }

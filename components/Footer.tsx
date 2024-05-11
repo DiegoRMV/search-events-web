@@ -1,5 +1,5 @@
 "use client";
-import { imageLoader } from "@/utils/Loader";
+
 import Image from "next/image";
 import Link from "next/link";
 import github from "/public/svgs/github.svg";
@@ -33,7 +33,7 @@ export default function Footer() {
 							<Link href="/" className="hover:scale-105 transition-all">
 								Home
 							</Link>
-							<Link href="/events" className="hover:scale-105 transition-all">
+							<Link href="/search-events" className="hover:scale-105 transition-all">
 								Events
 							</Link>
 							<Link href="/about-us" className="hover:scale-105 transition-all">
